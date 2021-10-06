@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/Low_Poly_Forest_treeRoundTop04.obj-87814c773b62ed64ea52bdfb9dcc7267.mesh"
+
+[deps]
+
+files=[ "res://.import/Low_Poly_Forest_treeRoundTop04.obj-87814c773b62ed64ea52bdfb9dcc7267.mesh" ]
+
+source_file="res://models/low_poly_forest/Low_Poly_Forest_treeRoundTop04.obj"
+dest_files=[ "res://.import/Low_Poly_Forest_treeRoundTop04.obj-87814c773b62ed64ea52bdfb9dcc7267.mesh", "res://.import/Low_Poly_Forest_treeRoundTop04.obj-87814c773b62ed64ea52bdfb9dcc7267.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true

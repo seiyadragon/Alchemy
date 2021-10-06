@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/Canopy_Beam_Short.obj-768ae6bd2344d5529b647be155363019.mesh"
+
+[deps]
+
+files=[ "res://.import/Canopy_Beam_Short.obj-768ae6bd2344d5529b647be155363019.mesh" ]
+
+source_file="res://models/Modular Village/Canopy_Beam_Short.obj"
+dest_files=[ "res://.import/Canopy_Beam_Short.obj-768ae6bd2344d5529b647be155363019.mesh", "res://.import/Canopy_Beam_Short.obj-768ae6bd2344d5529b647be155363019.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true

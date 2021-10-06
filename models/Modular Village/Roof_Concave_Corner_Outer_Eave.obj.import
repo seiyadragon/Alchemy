@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/Roof_Concave_Corner_Outer_Eave.obj-b4b40a7fd1bda336c309b64eba0f6ee9.mesh"
+
+[deps]
+
+files=[ "res://.import/Roof_Concave_Corner_Outer_Eave.obj-b4b40a7fd1bda336c309b64eba0f6ee9.mesh" ]
+
+source_file="res://models/Modular Village/Roof_Concave_Corner_Outer_Eave.obj"
+dest_files=[ "res://.import/Roof_Concave_Corner_Outer_Eave.obj-b4b40a7fd1bda336c309b64eba0f6ee9.mesh", "res://.import/Roof_Concave_Corner_Outer_Eave.obj-b4b40a7fd1bda336c309b64eba0f6ee9.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true

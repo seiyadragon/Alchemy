@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/Kit_Window_Upper_Convex.obj-0a69a9e7fe54b7b33eb507bcc964a678.mesh"
+
+[deps]
+
+files=[ "res://.import/Kit_Window_Upper_Convex.obj-0a69a9e7fe54b7b33eb507bcc964a678.mesh" ]
+
+source_file="res://models/Modular Village/Kit_Window_Upper_Convex.obj"
+dest_files=[ "res://.import/Kit_Window_Upper_Convex.obj-0a69a9e7fe54b7b33eb507bcc964a678.mesh", "res://.import/Kit_Window_Upper_Convex.obj-0a69a9e7fe54b7b33eb507bcc964a678.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true

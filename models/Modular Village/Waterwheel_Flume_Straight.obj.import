@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/Waterwheel_Flume_Straight.obj-38e28341c96061f40d5d06436c6e7555.mesh"
+
+[deps]
+
+files=[ "res://.import/Waterwheel_Flume_Straight.obj-38e28341c96061f40d5d06436c6e7555.mesh" ]
+
+source_file="res://models/Modular Village/Waterwheel_Flume_Straight.obj"
+dest_files=[ "res://.import/Waterwheel_Flume_Straight.obj-38e28341c96061f40d5d06436c6e7555.mesh", "res://.import/Waterwheel_Flume_Straight.obj-38e28341c96061f40d5d06436c6e7555.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true

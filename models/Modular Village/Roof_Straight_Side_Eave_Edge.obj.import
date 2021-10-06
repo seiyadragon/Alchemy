@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/Roof_Straight_Side_Eave_Edge.obj-60662b0758564f8c1d4c4b8345c3f376.mesh"
+
+[deps]
+
+files=[ "res://.import/Roof_Straight_Side_Eave_Edge.obj-60662b0758564f8c1d4c4b8345c3f376.mesh" ]
+
+source_file="res://models/Modular Village/Roof_Straight_Side_Eave_Edge.obj"
+dest_files=[ "res://.import/Roof_Straight_Side_Eave_Edge.obj-60662b0758564f8c1d4c4b8345c3f376.mesh", "res://.import/Roof_Straight_Side_Eave_Edge.obj-60662b0758564f8c1d4c4b8345c3f376.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true

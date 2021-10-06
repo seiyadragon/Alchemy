@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/Wood_Baseboard.obj-18afb0cd4243b40ea8d801c765958f90.mesh"
+
+[deps]
+
+files=[ "res://.import/Wood_Baseboard.obj-18afb0cd4243b40ea8d801c765958f90.mesh" ]
+
+source_file="res://models/Modular Village/Wood_Baseboard.obj"
+dest_files=[ "res://.import/Wood_Baseboard.obj-18afb0cd4243b40ea8d801c765958f90.mesh", "res://.import/Wood_Baseboard.obj-18afb0cd4243b40ea8d801c765958f90.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true

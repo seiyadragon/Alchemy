@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/Wood_Rope_Corner.obj-fb694d8400be06341d33548f85e9d1f3.mesh"
+
+[deps]
+
+files=[ "res://.import/Wood_Rope_Corner.obj-fb694d8400be06341d33548f85e9d1f3.mesh" ]
+
+source_file="res://models/Modular Village/Wood_Rope_Corner.obj"
+dest_files=[ "res://.import/Wood_Rope_Corner.obj-fb694d8400be06341d33548f85e9d1f3.mesh", "res://.import/Wood_Rope_Corner.obj-fb694d8400be06341d33548f85e9d1f3.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true

@@ -1,0 +1,116 @@
+[gd_scene load_steps=12 format=2]
+
+[ext_resource path="res://objects/player/player.tscn" type="PackedScene" id=1]
+[ext_resource path="res://shaders/ground_shader.gdshader" type="Shader" id=2]
+[ext_resource path="res://objects/plot/plot.gd" type="Script" id=4]
+
+[sub_resource type="OpenSimplexNoise" id=1]
+octaves = 8
+period = 1.0
+persistence = 1.0
+lacunarity = 4.0
+
+[sub_resource type="NoiseTexture" id=2]
+width = 4082
+height = 4082
+seamless = true
+noise = SubResource( 1 )
+
+[sub_resource type="ShaderMaterial" id=3]
+shader = ExtResource( 2 )
+shader_param/grass_color = Plane( 0.2, 0.5, 0.05, 0 )
+shader_param/noise_texture = SubResource( 2 )
+
+[sub_resource type="CubeMesh" id=4]
+material = SubResource( 3 )
+size = Vector3( 80, 2, 80 )
+
+[sub_resource type="ConvexPolygonShape" id=5]
+points = PoolVector3Array( -40, 1, 40, 40, 1, -40, 40, 1, 40, -40, 1, -40, -40, -1, 40, 40, -1, -40, 40, -1, 40, -40, -1, -40, 40, 1, 40, -40, 1, -40, 40, 1, -40, -40, 1, 40, 40, -1, 40, -40, -1, -40, 40, -1, -40, -40, -1, 40, 40, 1, 40, -40, -1, 40, -40, 1, 40, 40, -1, 40, 40, 1, -40, -40, -1, -40, -40, 1, -40, 40, -1, -40 )
+
+[sub_resource type="Animation" id=6]
+resource_name = "rotate"
+length = 1536.0
+loop = true
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:rotation_degrees")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 1536 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Vector3( -90, 0, 0 ), Vector3( -270, 0, 0 ) ]
+}
+
+[sub_resource type="Environment" id=7]
+background_mode = 1
+background_color = Color( 0.336394, 0.500684, 0.59065, 1 )
+ambient_light_color = Color( 0.336394, 0.500684, 0.59065, 1 )
+fog_enabled = true
+fog_depth_begin = 75.0
+fog_depth_end = 200.0
+auto_exposure_enabled = true
+ss_reflections_enabled = true
+ssao_enabled = true
+dof_blur_far_enabled = true
+dof_blur_far_distance = 50.0
+
+[sub_resource type="Animation" id=8]
+resource_name = "skycolor"
+length = 1536.0
+loop = true
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:environment:background_color")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 768 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Color( 0.556863, 0.827451, 0.976471, 1 ), Color( 0.117647, 0.176471, 0.207843, 1 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath(".:environment:ambient_light_color")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0, 768 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Color( 0.556863, 0.827451, 0.976471, 1 ), Color( 0.117647, 0.176471, 0.207843, 1 ) ]
+}
+
+[node name="plot" type="StaticBody"]
+script = ExtResource( 4 )
+
+[node name="mesh" type="MeshInstance" parent="."]
+mesh = SubResource( 4 )
+material/0 = null
+
+[node name="hitbox" type="CollisionShape" parent="."]
+shape = SubResource( 5 )
+
+[node name="player" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4.25211, 1.77358, 0 )
+
+[node name="sun" type="DirectionalLight" parent="."]
+transform = Transform( 1, 0, 0, 0, -0.871642, 0.490142, 0, -0.490142, -0.871642, 0, 20, 0 )
+shadow_enabled = true
+
+[node name="animation" type="AnimationPlayer" parent="sun"]
+autoplay = "rotate"
+anims/rotate = SubResource( 6 )
+
+[node name="enviornment" type="WorldEnvironment" parent="."]
+environment = SubResource( 7 )
+
+[node name="animation" type="AnimationPlayer" parent="enviornment"]
+autoplay = "skycolor"
+anims/skycolor = SubResource( 8 )

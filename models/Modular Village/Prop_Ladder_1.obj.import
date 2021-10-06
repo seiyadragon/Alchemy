@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/Prop_Ladder_1.obj-91c9e255dfa4a446198d0fa7688c44fb.mesh"
+
+[deps]
+
+files=[ "res://.import/Prop_Ladder_1.obj-91c9e255dfa4a446198d0fa7688c44fb.mesh" ]
+
+source_file="res://models/Modular Village/Prop_Ladder_1.obj"
+dest_files=[ "res://.import/Prop_Ladder_1.obj-91c9e255dfa4a446198d0fa7688c44fb.mesh", "res://.import/Prop_Ladder_1.obj-91c9e255dfa4a446198d0fa7688c44fb.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true

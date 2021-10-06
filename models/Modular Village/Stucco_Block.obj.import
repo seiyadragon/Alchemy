@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/Stucco_Block.obj-cf0cbbf8010370c942b00b86dd5e35ad.mesh"
+
+[deps]
+
+files=[ "res://.import/Stucco_Block.obj-cf0cbbf8010370c942b00b86dd5e35ad.mesh" ]
+
+source_file="res://models/Modular Village/Stucco_Block.obj"
+dest_files=[ "res://.import/Stucco_Block.obj-cf0cbbf8010370c942b00b86dd5e35ad.mesh", "res://.import/Stucco_Block.obj-cf0cbbf8010370c942b00b86dd5e35ad.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true
