@@ -1,19 +1,25 @@
 [remap]
 
 importer="wavefront_obj"
+importer_version=1
 type="Mesh"
-path="res://.import/Stucco_Arch_Half_Outer.obj-ab6ff043820d84446fe42c1b1a785627.mesh"
+uid="uid://d0o0voskjrqv3"
+path="res://.godot/imported/Stucco_Arch_Half_Outer.obj-ab6ff043820d84446fe42c1b1a785627.mesh"
 
 [deps]
 
-files=[ "res://.import/Stucco_Arch_Half_Outer.obj-ab6ff043820d84446fe42c1b1a785627.mesh" ]
+files=["res://.godot/imported/Stucco_Arch_Half_Outer.obj-ab6ff043820d84446fe42c1b1a785627.mesh"]
 
 source_file="res://models/Modular Village/Stucco_Arch_Half_Outer.obj"
-dest_files=[ "res://.import/Stucco_Arch_Half_Outer.obj-ab6ff043820d84446fe42c1b1a785627.mesh", "res://.import/Stucco_Arch_Half_Outer.obj-ab6ff043820d84446fe42c1b1a785627.mesh" ]
+dest_files=["res://.godot/imported/Stucco_Arch_Half_Outer.obj-ab6ff043820d84446fe42c1b1a785627.mesh", "res://.godot/imported/Stucco_Arch_Half_Outer.obj-ab6ff043820d84446fe42c1b1a785627.mesh"]
 
 [params]
 
 generate_tangents=true
-scale_mesh=Vector3( 1, 1, 1 )
-offset_mesh=Vector3( 0, 0, 0 )
-optimize_mesh=true
+generate_lods=true
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

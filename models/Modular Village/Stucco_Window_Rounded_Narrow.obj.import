@@ -1,19 +1,25 @@
 [remap]
 
 importer="wavefront_obj"
+importer_version=1
 type="Mesh"
-path="res://.import/Stucco_Window_Rounded_Narrow.obj-ae4d8355d2666923d32e86c22b99bfae.mesh"
+uid="uid://dy2e2i4favh0j"
+path="res://.godot/imported/Stucco_Window_Rounded_Narrow.obj-ae4d8355d2666923d32e86c22b99bfae.mesh"
 
 [deps]
 
-files=[ "res://.import/Stucco_Window_Rounded_Narrow.obj-ae4d8355d2666923d32e86c22b99bfae.mesh" ]
+files=["res://.godot/imported/Stucco_Window_Rounded_Narrow.obj-ae4d8355d2666923d32e86c22b99bfae.mesh"]
 
 source_file="res://models/Modular Village/Stucco_Window_Rounded_Narrow.obj"
-dest_files=[ "res://.import/Stucco_Window_Rounded_Narrow.obj-ae4d8355d2666923d32e86c22b99bfae.mesh", "res://.import/Stucco_Window_Rounded_Narrow.obj-ae4d8355d2666923d32e86c22b99bfae.mesh" ]
+dest_files=["res://.godot/imported/Stucco_Window_Rounded_Narrow.obj-ae4d8355d2666923d32e86c22b99bfae.mesh", "res://.godot/imported/Stucco_Window_Rounded_Narrow.obj-ae4d8355d2666923d32e86c22b99bfae.mesh"]
 
 [params]
 
 generate_tangents=true
-scale_mesh=Vector3( 1, 1, 1 )
-offset_mesh=Vector3( 0, 0, 0 )
-optimize_mesh=true
+generate_lods=true
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

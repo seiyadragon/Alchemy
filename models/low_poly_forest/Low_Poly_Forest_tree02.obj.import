@@ -1,19 +1,25 @@
 [remap]
 
 importer="wavefront_obj"
+importer_version=1
 type="Mesh"
-path="res://.import/Low_Poly_Forest_tree02.obj-009c598dc4359f687c0d45f659085334.mesh"
+uid="uid://cmqre2rtyv3hg"
+path="res://.godot/imported/Low_Poly_Forest_tree02.obj-009c598dc4359f687c0d45f659085334.mesh"
 
 [deps]
 
-files=[ "res://.import/Low_Poly_Forest_tree02.obj-009c598dc4359f687c0d45f659085334.mesh" ]
+files=["res://.godot/imported/Low_Poly_Forest_tree02.obj-009c598dc4359f687c0d45f659085334.mesh"]
 
 source_file="res://models/low_poly_forest/Low_Poly_Forest_tree02.obj"
-dest_files=[ "res://.import/Low_Poly_Forest_tree02.obj-009c598dc4359f687c0d45f659085334.mesh", "res://.import/Low_Poly_Forest_tree02.obj-009c598dc4359f687c0d45f659085334.mesh" ]
+dest_files=["res://.godot/imported/Low_Poly_Forest_tree02.obj-009c598dc4359f687c0d45f659085334.mesh", "res://.godot/imported/Low_Poly_Forest_tree02.obj-009c598dc4359f687c0d45f659085334.mesh"]
 
 [params]
 
 generate_tangents=true
-scale_mesh=Vector3( 1, 1, 1 )
-offset_mesh=Vector3( 0, 0, 0 )
-optimize_mesh=true
+generate_lods=true
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

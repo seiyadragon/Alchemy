@@ -1,19 +1,25 @@
 [remap]
 
 importer="wavefront_obj"
+importer_version=1
 type="Mesh"
-path="res://.import/Stucco_Window_Double_Narrow_Tall.obj-1ca42304a7b793f6269e5d4f2787d4cd.mesh"
+uid="uid://bu7qm6wsf6oa5"
+path="res://.godot/imported/Stucco_Window_Double_Narrow_Tall.obj-1ca42304a7b793f6269e5d4f2787d4cd.mesh"
 
 [deps]
 
-files=[ "res://.import/Stucco_Window_Double_Narrow_Tall.obj-1ca42304a7b793f6269e5d4f2787d4cd.mesh" ]
+files=["res://.godot/imported/Stucco_Window_Double_Narrow_Tall.obj-1ca42304a7b793f6269e5d4f2787d4cd.mesh"]
 
 source_file="res://models/Modular Village/Stucco_Window_Double_Narrow_Tall.obj"
-dest_files=[ "res://.import/Stucco_Window_Double_Narrow_Tall.obj-1ca42304a7b793f6269e5d4f2787d4cd.mesh", "res://.import/Stucco_Window_Double_Narrow_Tall.obj-1ca42304a7b793f6269e5d4f2787d4cd.mesh" ]
+dest_files=["res://.godot/imported/Stucco_Window_Double_Narrow_Tall.obj-1ca42304a7b793f6269e5d4f2787d4cd.mesh", "res://.godot/imported/Stucco_Window_Double_Narrow_Tall.obj-1ca42304a7b793f6269e5d4f2787d4cd.mesh"]
 
 [params]
 
 generate_tangents=true
-scale_mesh=Vector3( 1, 1, 1 )
-offset_mesh=Vector3( 0, 0, 0 )
-optimize_mesh=true
+generate_lods=true
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

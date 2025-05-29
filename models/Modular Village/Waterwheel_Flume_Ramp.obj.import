@@ -1,19 +1,25 @@
 [remap]
 
 importer="wavefront_obj"
+importer_version=1
 type="Mesh"
-path="res://.import/Waterwheel_Flume_Ramp.obj-65f40a2c97be8bb4bcc920f14ff5a124.mesh"
+uid="uid://dr8iwd7d6p6y6"
+path="res://.godot/imported/Waterwheel_Flume_Ramp.obj-65f40a2c97be8bb4bcc920f14ff5a124.mesh"
 
 [deps]
 
-files=[ "res://.import/Waterwheel_Flume_Ramp.obj-65f40a2c97be8bb4bcc920f14ff5a124.mesh" ]
+files=["res://.godot/imported/Waterwheel_Flume_Ramp.obj-65f40a2c97be8bb4bcc920f14ff5a124.mesh"]
 
 source_file="res://models/Modular Village/Waterwheel_Flume_Ramp.obj"
-dest_files=[ "res://.import/Waterwheel_Flume_Ramp.obj-65f40a2c97be8bb4bcc920f14ff5a124.mesh", "res://.import/Waterwheel_Flume_Ramp.obj-65f40a2c97be8bb4bcc920f14ff5a124.mesh" ]
+dest_files=["res://.godot/imported/Waterwheel_Flume_Ramp.obj-65f40a2c97be8bb4bcc920f14ff5a124.mesh", "res://.godot/imported/Waterwheel_Flume_Ramp.obj-65f40a2c97be8bb4bcc920f14ff5a124.mesh"]
 
 [params]
 
 generate_tangents=true
-scale_mesh=Vector3( 1, 1, 1 )
-offset_mesh=Vector3( 0, 0, 0 )
-optimize_mesh=true
+generate_lods=true
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

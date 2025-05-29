@@ -1,19 +1,25 @@
 [remap]
 
 importer="wavefront_obj"
+importer_version=1
 type="Mesh"
-path="res://.import/Wall_Prop_Door_Simple.obj-17eb08c133b1b07385dc8c49951ef1be.mesh"
+uid="uid://4k7a2i3mo1bd"
+path="res://.godot/imported/Wall_Prop_Door_Simple.obj-17eb08c133b1b07385dc8c49951ef1be.mesh"
 
 [deps]
 
-files=[ "res://.import/Wall_Prop_Door_Simple.obj-17eb08c133b1b07385dc8c49951ef1be.mesh" ]
+files=["res://.godot/imported/Wall_Prop_Door_Simple.obj-17eb08c133b1b07385dc8c49951ef1be.mesh"]
 
 source_file="res://models/Modular Village/Wall_Prop_Door_Simple.obj"
-dest_files=[ "res://.import/Wall_Prop_Door_Simple.obj-17eb08c133b1b07385dc8c49951ef1be.mesh", "res://.import/Wall_Prop_Door_Simple.obj-17eb08c133b1b07385dc8c49951ef1be.mesh" ]
+dest_files=["res://.godot/imported/Wall_Prop_Door_Simple.obj-17eb08c133b1b07385dc8c49951ef1be.mesh", "res://.godot/imported/Wall_Prop_Door_Simple.obj-17eb08c133b1b07385dc8c49951ef1be.mesh"]
 
 [params]
 
 generate_tangents=true
-scale_mesh=Vector3( 1, 1, 1 )
-offset_mesh=Vector3( 0, 0, 0 )
-optimize_mesh=true
+generate_lods=true
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

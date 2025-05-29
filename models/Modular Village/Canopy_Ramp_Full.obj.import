@@ -1,19 +1,25 @@
 [remap]
 
 importer="wavefront_obj"
+importer_version=1
 type="Mesh"
-path="res://.import/Canopy_Ramp_Full.obj-3dd80b5ec860626a7f4ca1fe27cf4b9f.mesh"
+uid="uid://yhjbxkvrqkmv"
+path="res://.godot/imported/Canopy_Ramp_Full.obj-3dd80b5ec860626a7f4ca1fe27cf4b9f.mesh"
 
 [deps]
 
-files=[ "res://.import/Canopy_Ramp_Full.obj-3dd80b5ec860626a7f4ca1fe27cf4b9f.mesh" ]
+files=["res://.godot/imported/Canopy_Ramp_Full.obj-3dd80b5ec860626a7f4ca1fe27cf4b9f.mesh"]
 
 source_file="res://models/Modular Village/Canopy_Ramp_Full.obj"
-dest_files=[ "res://.import/Canopy_Ramp_Full.obj-3dd80b5ec860626a7f4ca1fe27cf4b9f.mesh", "res://.import/Canopy_Ramp_Full.obj-3dd80b5ec860626a7f4ca1fe27cf4b9f.mesh" ]
+dest_files=["res://.godot/imported/Canopy_Ramp_Full.obj-3dd80b5ec860626a7f4ca1fe27cf4b9f.mesh", "res://.godot/imported/Canopy_Ramp_Full.obj-3dd80b5ec860626a7f4ca1fe27cf4b9f.mesh"]
 
 [params]
 
 generate_tangents=true
-scale_mesh=Vector3( 1, 1, 1 )
-offset_mesh=Vector3( 0, 0, 0 )
-optimize_mesh=true
+generate_lods=true
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

@@ -1,19 +1,25 @@
 [remap]
 
 importer="wavefront_obj"
+importer_version=1
 type="Mesh"
-path="res://.import/Wood_Post_Large.obj-5249dce23cd0eead7533a219c02f756b.mesh"
+uid="uid://c240sblmh5w2h"
+path="res://.godot/imported/Wood_Post_Large.obj-5249dce23cd0eead7533a219c02f756b.mesh"
 
 [deps]
 
-files=[ "res://.import/Wood_Post_Large.obj-5249dce23cd0eead7533a219c02f756b.mesh" ]
+files=["res://.godot/imported/Wood_Post_Large.obj-5249dce23cd0eead7533a219c02f756b.mesh"]
 
 source_file="res://models/Modular Village/Wood_Post_Large.obj"
-dest_files=[ "res://.import/Wood_Post_Large.obj-5249dce23cd0eead7533a219c02f756b.mesh", "res://.import/Wood_Post_Large.obj-5249dce23cd0eead7533a219c02f756b.mesh" ]
+dest_files=["res://.godot/imported/Wood_Post_Large.obj-5249dce23cd0eead7533a219c02f756b.mesh", "res://.godot/imported/Wood_Post_Large.obj-5249dce23cd0eead7533a219c02f756b.mesh"]
 
 [params]
 
 generate_tangents=true
-scale_mesh=Vector3( 1, 1, 1 )
-offset_mesh=Vector3( 0, 0, 0 )
-optimize_mesh=true
+generate_lods=true
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

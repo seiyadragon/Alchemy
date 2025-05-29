@@ -1,19 +1,25 @@
 [remap]
 
 importer="wavefront_obj"
+importer_version=1
 type="Mesh"
-path="res://.import/Stucco_Prop_Support_Beam_3.obj-8e1900218c4519640c69e6284e33d656.mesh"
+uid="uid://bhi43h51alnqy"
+path="res://.godot/imported/Stucco_Prop_Support_Beam_3.obj-8e1900218c4519640c69e6284e33d656.mesh"
 
 [deps]
 
-files=[ "res://.import/Stucco_Prop_Support_Beam_3.obj-8e1900218c4519640c69e6284e33d656.mesh" ]
+files=["res://.godot/imported/Stucco_Prop_Support_Beam_3.obj-8e1900218c4519640c69e6284e33d656.mesh"]
 
 source_file="res://models/Modular Village/Stucco_Prop_Support_Beam_3.obj"
-dest_files=[ "res://.import/Stucco_Prop_Support_Beam_3.obj-8e1900218c4519640c69e6284e33d656.mesh", "res://.import/Stucco_Prop_Support_Beam_3.obj-8e1900218c4519640c69e6284e33d656.mesh" ]
+dest_files=["res://.godot/imported/Stucco_Prop_Support_Beam_3.obj-8e1900218c4519640c69e6284e33d656.mesh", "res://.godot/imported/Stucco_Prop_Support_Beam_3.obj-8e1900218c4519640c69e6284e33d656.mesh"]
 
 [params]
 
 generate_tangents=true
-scale_mesh=Vector3( 1, 1, 1 )
-offset_mesh=Vector3( 0, 0, 0 )
-optimize_mesh=true
+generate_lods=true
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

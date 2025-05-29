@@ -1,4 +1,4 @@
-extends StaticBody
+extends StaticBody3D
 class_name TreeObject
 
 var location_range = 40

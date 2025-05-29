@@ -1,19 +1,25 @@
 [remap]
 
 importer="wavefront_obj"
+importer_version=1
 type="Mesh"
-path="res://.import/Roof_Straight_Corner_Outer_Eave.obj-1c916773edd50d660c7a7e3db9796c81.mesh"
+uid="uid://d2gfhws37plss"
+path="res://.godot/imported/Roof_Straight_Corner_Outer_Eave.obj-1c916773edd50d660c7a7e3db9796c81.mesh"
 
 [deps]
 
-files=[ "res://.import/Roof_Straight_Corner_Outer_Eave.obj-1c916773edd50d660c7a7e3db9796c81.mesh" ]
+files=["res://.godot/imported/Roof_Straight_Corner_Outer_Eave.obj-1c916773edd50d660c7a7e3db9796c81.mesh"]
 
 source_file="res://models/Modular Village/Roof_Straight_Corner_Outer_Eave.obj"
-dest_files=[ "res://.import/Roof_Straight_Corner_Outer_Eave.obj-1c916773edd50d660c7a7e3db9796c81.mesh", "res://.import/Roof_Straight_Corner_Outer_Eave.obj-1c916773edd50d660c7a7e3db9796c81.mesh" ]
+dest_files=["res://.godot/imported/Roof_Straight_Corner_Outer_Eave.obj-1c916773edd50d660c7a7e3db9796c81.mesh", "res://.godot/imported/Roof_Straight_Corner_Outer_Eave.obj-1c916773edd50d660c7a7e3db9796c81.mesh"]
 
 [params]
 
 generate_tangents=true
-scale_mesh=Vector3( 1, 1, 1 )
-offset_mesh=Vector3( 0, 0, 0 )
-optimize_mesh=true
+generate_lods=true
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false
